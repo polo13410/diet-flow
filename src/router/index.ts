@@ -4,14 +4,14 @@ import LoginView from "../views/LoginView.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: "/",
-    name: "home",
-    component: HomeView,
-  },
-  {
     path: "/login",
     name: "login",
     component: LoginView,
+  },
+  {
+    path: "/",
+    name: "home",
+    component: HomeView,
   },
   {
     path: "/about",
